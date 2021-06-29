@@ -6,18 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="LC.Google.Protobuf">
-      <HintPath>C:\Users\Administrator\Downloads\LeanCloud-SDK-Realtime-Standard\DLLs\LC.Google.Protobuf.dll</HintPath>
-    </Reference>
-    <Reference Include="LC.Newtonsoft.Json">
-      <HintPath>C:\Users\Administrator\Downloads\LeanCloud-SDK-Realtime-Standard\DLLs\LC.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="LiveQuery">
-      <HintPath>C:\Users\Administrator\Downloads\LeanCloud-SDK-Realtime-Standard\DLLs\LiveQuery.dll</HintPath>
-    </Reference>
-    <Reference Include="Realtime">
-      <HintPath>C:\Users\Administrator\Downloads\LeanCloud-SDK-Realtime-Standard\DLLs\Realtime.dll</HintPath>
-    </Reference>
     <Reference Include="Storage">
       <HintPath>Libs\Storage.dll</HintPath>
     </Reference>
@@ -26,9 +14,6 @@
     </Reference>
     <Reference Include="Engine">
       <HintPath>Libs\Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="Storage.Standard">
-      <HintPath>C:\Users\Administrator\Downloads\LeanCloud-SDK-Realtime-Standard\DLLs\Storage.Standard.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
