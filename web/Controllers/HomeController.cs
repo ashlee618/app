@@ -13,14 +13,14 @@ namespace web.Controllers {
             _logger = logger;
         }
 
-        public async System.Threading.Tasks.Task<IActionResult> Index() {
+        public IActionResult Index() {
           
             return View();
         }
 
-        public async System.Threading.Tasks.Task<IActionResult> Privacy() {
+        public IActionResult Privacy() {
            
-           
+          
             return View();
         }
 
