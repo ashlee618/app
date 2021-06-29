@@ -2,8 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using web.Models;
-using LeanCloud.LiveQuery;
-using LeanCloud.Realtime;
+
 using System;
 
 namespace web.Controllers {
@@ -15,40 +14,12 @@ namespace web.Controllers {
         }
 
         public async System.Threading.Tasks.Task<IActionResult> Index() {
-            LCIMClient tom = new LCIMClient("Tom");
-            _logger.LogDebug("jinru");
-            try
-            {
-
-                await tom.Open();
-                _logger.LogDebug("jinru");
-
-                _logger.LogDebug(tom.ToString());
-            }
-            catch (Exception e)
-            {
-                _logger.LogDebug("e" + e.Message);
-            }
+          
             return View();
         }
 
         public async System.Threading.Tasks.Task<IActionResult> Privacy() {
-            LCIMClient tom = new LCIMClient("Tom");
-            _logger.LogDebug("jinru");
-            try
-            {
-
-                await tom.Open();
-                _logger.LogDebug("jinru");
-
-                _logger.LogDebug(tom.ToString());
-            }
-            catch(Exception e)
-            {
-                _logger.LogDebug("e"+e.Message);
-            }
-
-
+           
            
             return View();
         }
